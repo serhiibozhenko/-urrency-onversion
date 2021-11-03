@@ -21,7 +21,7 @@ while (operationAgain) {
 
   do {
     moneyConvert = prompt(
-      "Напишите валюту (в абревеатуре - usd, rub, uk, euro, pl) в которую вы хотете перевести ваши деньги"
+      "Напишите валюту (в абревеатуре - usd, rub, uk, euro, pl) в которую вы хотите перевести ваши деньги"
     );
   } while (
     moneyConvert !== "usd" &&
